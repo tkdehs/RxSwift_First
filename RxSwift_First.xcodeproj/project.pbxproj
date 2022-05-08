@@ -23,6 +23,7 @@
 		CEF971AD32796C3E91AA8FAF /* Pods-RxSwift_First.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift_First.release.xcconfig"; path = "Target Support Files/Pods-RxSwift_First/Pods-RxSwift_First.release.xcconfig"; sourceTree = "<group>"; };
 		F210189A28276C4100447C74 /* Obsevable.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Obsevable.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F210189B2827700B00447C74 /* infallible.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = infallible.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F221990628280C9F006E17C4 /* PublishSubject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PublishSubject.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F2881EDE282771EB005C97A2 /* Disposable.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Disposable.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F2881EDF282775C7005C97A2 /* Operators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Operators.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F2EDAD462826B83300EE1920 /* RxSwift_First.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwift_First.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,11 +78,20 @@
 			path = RxWorks;
 			sourceTree = "<group>";
 		};
+		F221990528280C7C006E17C4 /* Subjects */ = {
+			isa = PBXGroup;
+			children = (
+				F221990628280C9F006E17C4 /* PublishSubject.playground */,
+			);
+			path = Subjects;
+			sourceTree = "<group>";
+		};
 		F2EDAD3D2826B83300EE1920 = {
 			isa = PBXGroup;
 			children = (
 				F2EDAD602826B9B200EE1920 /* Hellow */,
 				F210189928276C1200447C74 /* RxWorks */,
+				F221990528280C7C006E17C4 /* Subjects */,
 				F2EDAD482826B83300EE1920 /* RxSwift_First */,
 				F2EDAD472826B83300EE1920 /* Products */,
 				39CAAFBEBC0D6FB9333345A3 /* Pods */,
