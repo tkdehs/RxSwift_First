@@ -23,6 +23,10 @@
 		CEF971AD32796C3E91AA8FAF /* Pods-RxSwift_First.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift_First.release.xcconfig"; path = "Target Support Files/Pods-RxSwift_First/Pods-RxSwift_First.release.xcconfig"; sourceTree = "<group>"; };
 		F210189A28276C4100447C74 /* Obsevable.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Obsevable.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F210189B2827700B00447C74 /* infallible.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = infallible.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F21EA56828293A3C000403C8 /* BehaviorSubject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BehaviorSubject.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F21EA56928293BFA000403C8 /* ReplaySubject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ReplaySubject.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F21EA56A28293F64000403C8 /* AsyncSubject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AsyncSubject.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F21EA56B28294131000403C8 /* Relays_RxSwift5.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Relays_RxSwift5.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F221990628280C9F006E17C4 /* PublishSubject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PublishSubject.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F2881EDE282771EB005C97A2 /* Disposable.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Disposable.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F2881EDF282775C7005C97A2 /* Operators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Operators.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -82,6 +86,10 @@
 			isa = PBXGroup;
 			children = (
 				F221990628280C9F006E17C4 /* PublishSubject.playground */,
+				F21EA56828293A3C000403C8 /* BehaviorSubject.playground */,
+				F21EA56928293BFA000403C8 /* ReplaySubject.playground */,
+				F21EA56A28293F64000403C8 /* AsyncSubject.playground */,
+				F21EA56B28294131000403C8 /* Relays_RxSwift5.playground */,
 			);
 			path = Subjects;
 			sourceTree = "<group>";
