@@ -50,6 +50,22 @@
 		F2EDAD582826B83600EE1920 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2EDAD5A2826B83600EE1920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2EDAD612826B9D300EE1920 /* Hellow.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Hellow.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F2F384BB282F485D00E551CD /* IgnoreElements.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = IgnoreElements.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F2F384BC282F4B9500E551CD /* elementsAt.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = elementsAt.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F2F384BD282F4C3500E551CD /* filter.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = filter.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F2F384BE282F4D0600E551CD /* skip.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = skip.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F2F384BF282F56DD00E551CD /* skipWhile.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = skipWhile.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F2F384C0282F5A6F00E551CD /* skipUntil.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = skipUntil.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F2F384C1282F5BFA00E551CD /* skipDuration.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = skipDuration.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F2F384C2282F926200E551CD /* take.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = take.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F2F384C3282F92D700E551CD /* takeWhile.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = takeWhile.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F2F384C4282F936300E551CD /* takeUntil.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = takeUntil.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F2F384C5282F946600E551CD /* takeLast.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = takeLast.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F2F384C6282F99DC00E551CD /* takeFor.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = takeFor.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F2F384C7282F9AEE00E551CD /* single.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = single.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F2F384C8282F9CA500E551CD /* distinctUntilChanged.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = distinctUntilChanged.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F2F384C9282FA02700E551CD /* debounce.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = debounce.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F2F384CA282FA74400E551CD /* throttle.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = throttle.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +140,7 @@
 		F2EDAD3D2826B83300EE1920 = {
 			isa = PBXGroup;
 			children = (
+				F2F384BA282F482500E551CD /* FilteringOperators */,
 				F27C1435282A7EBC0024062F /* CreatingOperators */,
 				F2EDAD602826B9B200EE1920 /* Hellow */,
 				F210189928276C1200447C74 /* RxWorks */,
@@ -164,6 +181,29 @@
 				F2EDAD612826B9D300EE1920 /* Hellow.playground */,
 			);
 			path = Hellow;
+			sourceTree = "<group>";
+		};
+		F2F384BA282F482500E551CD /* FilteringOperators */ = {
+			isa = PBXGroup;
+			children = (
+				F2F384BB282F485D00E551CD /* IgnoreElements.playground */,
+				F2F384BC282F4B9500E551CD /* elementsAt.playground */,
+				F2F384BD282F4C3500E551CD /* filter.playground */,
+				F2F384BE282F4D0600E551CD /* skip.playground */,
+				F2F384BF282F56DD00E551CD /* skipWhile.playground */,
+				F2F384C0282F5A6F00E551CD /* skipUntil.playground */,
+				F2F384C1282F5BFA00E551CD /* skipDuration.playground */,
+				F2F384C2282F926200E551CD /* take.playground */,
+				F2F384C3282F92D700E551CD /* takeWhile.playground */,
+				F2F384C4282F936300E551CD /* takeUntil.playground */,
+				F2F384C5282F946600E551CD /* takeLast.playground */,
+				F2F384C6282F99DC00E551CD /* takeFor.playground */,
+				F2F384C7282F9AEE00E551CD /* single.playground */,
+				F2F384C8282F9CA500E551CD /* distinctUntilChanged.playground */,
+				F2F384C9282FA02700E551CD /* debounce.playground */,
+				F2F384CA282FA74400E551CD /* throttle.playground */,
+			);
+			path = FilteringOperators;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -13,3 +13,4 @@ enum MyError: Error {
 Observable<Void>.error(MyError.error)
     .subscribe { print($0) }
     .disposed(by: disposeBag)
+
