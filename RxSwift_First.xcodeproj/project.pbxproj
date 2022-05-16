@@ -20,6 +20,7 @@
 /* Begin PBXFileReference section */
 		2F4324EFB3B9C5810864DBBD /* Pods_RxSwift_First.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwift_First.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		56AEE1024212DF0336429F14 /* Pods-RxSwift_First.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift_First.debug.xcconfig"; path = "Target Support Files/Pods-RxSwift_First/Pods-RxSwift_First.debug.xcconfig"; sourceTree = "<group>"; };
+		93B381A22831DAE700EF2FDC /* flatMapFirst.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = flatMapFirst.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		CEF971AD32796C3E91AA8FAF /* Pods-RxSwift_First.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift_First.release.xcconfig"; path = "Target Support Files/Pods-RxSwift_First/Pods-RxSwift_First.release.xcconfig"; sourceTree = "<group>"; };
 		F210189A28276C4100447C74 /* Obsevable.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Obsevable.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F210189B2827700B00447C74 /* infallible.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = infallible.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -131,6 +132,7 @@
 				F27BE9432831358600D480D8 /* map.playground */,
 				F27BE9442831366400D480D8 /* compactMap.playground */,
 				F27BE9452831386100D480D8 /* flatMap.playground */,
+				93B381A22831DAE700EF2FDC /* flatMapFirst.playground */,
 			);
 			path = TransformingOperators;
 			sourceTree = "<group>";
