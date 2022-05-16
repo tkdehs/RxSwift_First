@@ -21,6 +21,10 @@
 		2F4324EFB3B9C5810864DBBD /* Pods_RxSwift_First.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwift_First.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		56AEE1024212DF0336429F14 /* Pods-RxSwift_First.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift_First.debug.xcconfig"; path = "Target Support Files/Pods-RxSwift_First/Pods-RxSwift_First.debug.xcconfig"; sourceTree = "<group>"; };
 		93B381A22831DAE700EF2FDC /* flatMapFirst.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = flatMapFirst.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		93B381A32831E26B00EF2FDC /* faltMapLatest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = faltMapLatest.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		93B381A42831EE6E00EF2FDC /* concat.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = concat.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		93E87C152831F331006B5301 /* scan.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = scan.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		93E87C162831F4B7006B5301 /* buffer.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = buffer.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		CEF971AD32796C3E91AA8FAF /* Pods-RxSwift_First.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift_First.release.xcconfig"; path = "Target Support Files/Pods-RxSwift_First/Pods-RxSwift_First.release.xcconfig"; sourceTree = "<group>"; };
 		F210189A28276C4100447C74 /* Obsevable.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Obsevable.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F210189B2827700B00447C74 /* infallible.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = infallible.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -102,6 +106,14 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		93B381A52831F27100EF2FDC /* CombiningOperators */ = {
+			isa = PBXGroup;
+			children = (
+				93B381A42831EE6E00EF2FDC /* concat.playground */,
+			);
+			path = CombiningOperators;
+			sourceTree = "<group>";
+		};
 		F210189928276C1200447C74 /* RxWorks */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +145,9 @@
 				F27BE9442831366400D480D8 /* compactMap.playground */,
 				F27BE9452831386100D480D8 /* flatMap.playground */,
 				93B381A22831DAE700EF2FDC /* flatMapFirst.playground */,
+				93B381A32831E26B00EF2FDC /* faltMapLatest.playground */,
+				93E87C152831F331006B5301 /* scan.playground */,
+				93E87C162831F4B7006B5301 /* buffer.playground */,
 			);
 			path = TransformingOperators;
 			sourceTree = "<group>";
@@ -157,6 +172,7 @@
 		F2EDAD3D2826B83300EE1920 = {
 			isa = PBXGroup;
 			children = (
+				93B381A52831F27100EF2FDC /* CombiningOperators */,
 				F27BE9412831343E00D480D8 /* TransformingOperators */,
 				F2F384BA282F482500E551CD /* FilteringOperators */,
 				F27C1435282A7EBC0024062F /* CreatingOperators */,
