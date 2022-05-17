@@ -78,6 +78,7 @@
 		F2F384C8282F9CA500E551CD /* distinctUntilChanged.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = distinctUntilChanged.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F2F384C9282FA02700E551CD /* debounce.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = debounce.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F2F384CA282FA74400E551CD /* throttle.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = throttle.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F2FDC0E328335AC000CC40CB /* groupBy.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = groupBy.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +169,7 @@
 				93E87C152831F331006B5301 /* scan.playground */,
 				93E87C162831F4B7006B5301 /* buffer.playground */,
 				F2F346CF283277ED00C777B1 /* window.playground */,
+				F2FDC0E328335AC000CC40CB /* groupBy.playground */,
 			);
 			path = TransformingOperators;
 			sourceTree = "<group>";

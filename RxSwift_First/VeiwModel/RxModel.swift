@@ -10,6 +10,7 @@ import RxSwift
 
 class RxModel {
     static let shard = RxModel()
-    let strSubject = PublishSubject<String>().debounce(.milliseconds(500), scheduler: MainScheduler.instance)
+    let bag = DisposeBag()
+    let strSubject = PublishSubject<String>()
     
 }

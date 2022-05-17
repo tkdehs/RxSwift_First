@@ -12,26 +12,46 @@ import RxSwift
 class ViewController: UIViewController {
 
     var textfield = UITextField()
+    var lbView = UILabel()
     var viewModel: RxModel = RxModel.shard
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.view.addSubview(textfield)
-        
+        textfield.font = UIFont.systemFont(ofSize: 20)
+        textfield.layer.borderColor = UIColor.black.cgColor
+        textfield.layer.borderWidth = 1
+        textfield.layer.cornerRadius = 6
         textfield.snp.makeConstraints { make in
-            make.top.equalToSuperview().offset(40)
+            make.top.equalToSuperview().offset(100)
             make.leading.equalToSuperview().offset(20)
             make.trailing.equalToSuperview().offset(-20)
             make.height.equalTo(30)
         }
+        self.view.addSubview(lbView)
+        lbView.font = UIFont.systemFont(ofSize: 20)
+        lbView.textColor = UIColor.black
+        lbView.snp.makeConstraints { make in
+            make.top.equalTo(self.textfield.snp.bottom).offset(20)
+            make.leading.equalToSuperview().offset(20)
+            make.trailing.equalToSuperview().offset(-20)
+        }
         
         textfield.addTarget(controlEvents: .editingChanged) {
-            
+            self.viewModel.strSubject.onNext(self.textfield.text ?? "")
         }
+        
+        setBridge()
     }
     
-    func set
+    func setBridge(){
+        viewModel.strSubject
+            .debounce(.milliseconds(1000), scheduler: MainScheduler.instance)
+            .subscribe {
+            self.lbView.text = $0
+        }.disposed(by: viewModel.bag)
+    }
 }
 
 
