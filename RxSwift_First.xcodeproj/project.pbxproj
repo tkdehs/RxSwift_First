@@ -67,6 +67,11 @@
 		F2D59ED428365D0900129C9A /* share.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = share.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F2D59ED52836636C00129C9A /* multicast.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = multicast.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F2D7886E28360FA000D8FBE1 /* delaySubscription.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = delaySubscription.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F2E3F25A283756F100338410 /* publish.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = publish.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F2E3F25B283757CC00338410 /* replay.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = replay.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F2E3F25C28375A1200338410 /* refCount.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = refCount.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F2E3F25D2837644700338410 /* shareDeep.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = shareDeep.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F2E3F25F28376EF900338410 /* scheduler.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = scheduler.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F2EDAD462826B83300EE1920 /* RxSwift_First.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwift_First.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2EDAD492826B83300EE1920 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2EDAD4B2826B83300EE1920 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -240,13 +245,26 @@
 			children = (
 				F2D59ED52836636C00129C9A /* multicast.playground */,
 				F2D59ED428365D0900129C9A /* share.playground */,
+				F2E3F25A283756F100338410 /* publish.playground */,
+				F2E3F25B283757CC00338410 /* replay.playground */,
+				F2E3F25C28375A1200338410 /* refCount.playground */,
+				F2E3F25D2837644700338410 /* shareDeep.playground */,
 			);
 			path = SharingOperators;
+			sourceTree = "<group>";
+		};
+		F2E3F25E28376EE600338410 /* Scheduler */ = {
+			isa = PBXGroup;
+			children = (
+				F2E3F25F28376EF900338410 /* scheduler.playground */,
+			);
+			path = Scheduler;
 			sourceTree = "<group>";
 		};
 		F2EDAD3D2826B83300EE1920 = {
 			isa = PBXGroup;
 			children = (
+				F2E3F25E28376EE600338410 /* Scheduler */,
 				F2D59ED6283665E900129C9A /* SharingOperators */,
 				F2A7943B2836066C002BB9BC /* TimeBasedOperators */,
 				F2A794392835CED1002BB9BC /* ConditionalOperators */,
