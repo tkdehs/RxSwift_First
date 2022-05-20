@@ -59,6 +59,14 @@
 		F2860A622833C1BC00BAB7B6 /* combineLatest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = combineLatest.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F2881EDE282771EB005C97A2 /* Disposable.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Disposable.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F2881EDF282775C7005C97A2 /* Operators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Operators.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F2A7943A2835CF8F002BB9BC /* amb.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = amb.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F2A7943C28360692002BB9BC /* interval.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = interval.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F2A7943D2836098E002BB9BC /* timer.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = timer.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F2A7943E28360AC0002BB9BC /* timeout.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = timeout.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F2A7943F28360C8F002BB9BC /* delay.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = delay.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F2D59ED428365D0900129C9A /* share.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = share.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F2D59ED52836636C00129C9A /* multicast.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = multicast.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F2D7886E28360FA000D8FBE1 /* delaySubscription.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = delaySubscription.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F2EDAD462826B83300EE1920 /* RxSwift_First.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwift_First.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2EDAD492826B83300EE1920 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2EDAD4B2826B83300EE1920 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -207,9 +215,41 @@
 			path = CreatingOperators;
 			sourceTree = "<group>";
 		};
+		F2A794392835CED1002BB9BC /* ConditionalOperators */ = {
+			isa = PBXGroup;
+			children = (
+				F2A7943A2835CF8F002BB9BC /* amb.playground */,
+			);
+			path = ConditionalOperators;
+			sourceTree = "<group>";
+		};
+		F2A7943B2836066C002BB9BC /* TimeBasedOperators */ = {
+			isa = PBXGroup;
+			children = (
+				F2A7943C28360692002BB9BC /* interval.playground */,
+				F2A7943D2836098E002BB9BC /* timer.playground */,
+				F2A7943E28360AC0002BB9BC /* timeout.playground */,
+				F2A7943F28360C8F002BB9BC /* delay.playground */,
+				F2D7886E28360FA000D8FBE1 /* delaySubscription.playground */,
+			);
+			path = TimeBasedOperators;
+			sourceTree = "<group>";
+		};
+		F2D59ED6283665E900129C9A /* SharingOperators */ = {
+			isa = PBXGroup;
+			children = (
+				F2D59ED52836636C00129C9A /* multicast.playground */,
+				F2D59ED428365D0900129C9A /* share.playground */,
+			);
+			path = SharingOperators;
+			sourceTree = "<group>";
+		};
 		F2EDAD3D2826B83300EE1920 = {
 			isa = PBXGroup;
 			children = (
+				F2D59ED6283665E900129C9A /* SharingOperators */,
+				F2A7943B2836066C002BB9BC /* TimeBasedOperators */,
+				F2A794392835CED1002BB9BC /* ConditionalOperators */,
 				93B381A52831F27100EF2FDC /* CombiningOperators */,
 				F27BE9412831343E00D480D8 /* TransformingOperators */,
 				F2F384BA282F482500E551CD /* FilteringOperators */,
