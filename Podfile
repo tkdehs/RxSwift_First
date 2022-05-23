@@ -7,6 +7,7 @@ target 'RxSwift_First' do
   pod 'RxSwift'
   pod 'SnapKit'
   pod 'RxCocoa'
+  pod 'RxDataSources'
   # Pods for RxSwift_First
 
 end

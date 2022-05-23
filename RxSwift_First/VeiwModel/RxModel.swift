@@ -7,10 +7,11 @@
 
 import Foundation
 import RxSwift
+import RxCocoa
 
 class RxModel {
     static let shard = RxModel()
     let bag = DisposeBag()
-    let strSubject = PublishSubject<String>()
+    let tableSubject = BehaviorRelay(value: [MySection]())
     
 }

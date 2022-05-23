@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		592424AAD611662D3368E6A4 /* Pods_RxSwift_First.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F4324EFB3B9C5810864DBBD /* Pods_RxSwift_First.framework */; };
 		939EA388283211640016AFD2 /* RxModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939EA387283211640016AFD2 /* RxModel.swift */; };
+		F2479472283B1F8B00E83B7C /* RxListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2479471283B1F8B00E83B7C /* RxListModel.swift */; };
+		F247947C283B2EA100E83B7C /* RxTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F247947A283B2EA100E83B7C /* RxTableViewCell.swift */; };
+		F247947D283B2EA100E83B7C /* RxTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F247947B283B2EA100E83B7C /* RxTableViewCell.xib */; };
 		F2EDAD4A2826B83300EE1920 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EDAD492826B83300EE1920 /* AppDelegate.swift */; };
 		F2EDAD4C2826B83300EE1920 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EDAD4B2826B83300EE1920 /* SceneDelegate.swift */; };
 		F2EDAD4E2826B83300EE1920 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EDAD4D2826B83300EE1920 /* ViewController.swift */; };
@@ -16,6 +19,8 @@
 		F2EDAD542826B83300EE1920 /* RxSwift_First.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F2EDAD522826B83300EE1920 /* RxSwift_First.xcdatamodeld */; };
 		F2EDAD562826B83600EE1920 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2EDAD552826B83600EE1920 /* Assets.xcassets */; };
 		F2EDAD592826B83600EE1920 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2EDAD572826B83600EE1920 /* LaunchScreen.storyboard */; };
+		F2F60E81283A3036005203AF /* HelloRxCocoaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F60E7F283A3036005203AF /* HelloRxCocoaViewController.swift */; };
+		F2F60E82283A3036005203AF /* HelloRxCocoaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2F60E80283A3036005203AF /* HelloRxCocoaViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +45,9 @@
 		F224CE4528351D9A00CEA1AA /* sample.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = sample.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F224CE4628351EEA00CEA1AA /* switchLatest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = switchLatest.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F224CE472835215500CEA1AA /* reduce.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = reduce.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F2479471283B1F8B00E83B7C /* RxListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxListModel.swift; sourceTree = "<group>"; };
+		F247947A283B2EA100E83B7C /* RxTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxTableViewCell.swift; sourceTree = "<group>"; };
+		F247947B283B2EA100E83B7C /* RxTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxTableViewCell.xib; sourceTree = "<group>"; };
 		F27121252839D5B5003A2910 /* catch.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = catch.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F27121262839D7A1003A2910 /* catchAndReturn.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = catchAndReturn.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F27121272839DC96003A2910 /* retry.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = retry.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -103,6 +111,8 @@
 		F2F384C8282F9CA500E551CD /* distinctUntilChanged.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = distinctUntilChanged.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F2F384C9282FA02700E551CD /* debounce.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = debounce.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F2F384CA282FA74400E551CD /* throttle.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = throttle.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F2F60E7F283A3036005203AF /* HelloRxCocoaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloRxCocoaViewController.swift; sourceTree = "<group>"; };
+		F2F60E80283A3036005203AF /* HelloRxCocoaViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HelloRxCocoaViewController.xib; sourceTree = "<group>"; };
 		F2FDC0E328335AC000CC40CB /* groupBy.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = groupBy.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
@@ -162,6 +172,7 @@
 		93E87C1828320D6F006B5301 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F2479479283B2E8800E83B7C /* Cell */,
 				F2EDAD4D2826B83300EE1920 /* ViewController.swift */,
 			);
 			path = Views;
@@ -188,6 +199,23 @@
 				F21EA56B28294131000403C8 /* Relays_RxSwift5.playground */,
 			);
 			path = Subjects;
+			sourceTree = "<group>";
+		};
+		F2479470283B1F7200E83B7C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F2479471283B1F8B00E83B7C /* RxListModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F2479479283B2E8800E83B7C /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F247947A283B2EA100E83B7C /* RxTableViewCell.swift */,
+				F247947B283B2EA100E83B7C /* RxTableViewCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		F27121242839D59E003A2910 /* ErrorHandling */ = {
@@ -309,6 +337,8 @@
 		F2EDAD482826B83300EE1920 /* RxSwift_First */ = {
 			isa = PBXGroup;
 			children = (
+				F2F60E7D283A2FEE005203AF /* RxCocoaBasics */,
+				F2479470283B1F7200E83B7C /* Model */,
 				93E87C1828320D6F006B5301 /* Views */,
 				93E87C1728320D4F006B5301 /* VeiwModel */,
 				F2EDAD492826B83300EE1920 /* AppDelegate.swift */,
@@ -351,6 +381,23 @@
 				F2F384CA282FA74400E551CD /* throttle.playground */,
 			);
 			path = FilteringOperators;
+			sourceTree = "<group>";
+		};
+		F2F60E7D283A2FEE005203AF /* RxCocoaBasics */ = {
+			isa = PBXGroup;
+			children = (
+				F2F60E7E283A3015005203AF /* Hello */,
+			);
+			path = RxCocoaBasics;
+			sourceTree = "<group>";
+		};
+		F2F60E7E283A3015005203AF /* Hello */ = {
+			isa = PBXGroup;
+			children = (
+				F2F60E7F283A3036005203AF /* HelloRxCocoaViewController.swift */,
+				F2F60E80283A3036005203AF /* HelloRxCocoaViewController.xib */,
+			);
+			path = Hello;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -414,6 +461,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2EDAD592826B83600EE1920 /* LaunchScreen.storyboard in Resources */,
+				F247947D283B2EA100E83B7C /* RxTableViewCell.xib in Resources */,
+				F2F60E82283A3036005203AF /* HelloRxCocoaViewController.xib in Resources */,
 				F2EDAD562826B83600EE1920 /* Assets.xcassets in Resources */,
 				F2EDAD512826B83300EE1920 /* Main.storyboard in Resources */,
 			);
@@ -468,11 +517,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2F60E81283A3036005203AF /* HelloRxCocoaViewController.swift in Sources */,
 				F2EDAD542826B83300EE1920 /* RxSwift_First.xcdatamodeld in Sources */,
 				F2EDAD4E2826B83300EE1920 /* ViewController.swift in Sources */,
 				F2EDAD4A2826B83300EE1920 /* AppDelegate.swift in Sources */,
 				F2EDAD4C2826B83300EE1920 /* SceneDelegate.swift in Sources */,
+				F247947C283B2EA100E83B7C /* RxTableViewCell.swift in Sources */,
 				939EA388283211640016AFD2 /* RxModel.swift in Sources */,
+				F2479472283B1F8B00E83B7C /* RxListModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

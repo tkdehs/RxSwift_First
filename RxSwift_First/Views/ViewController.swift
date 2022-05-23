@@ -8,50 +8,70 @@
 import UIKit
 import SnapKit
 import RxSwift
+import RxCocoa
+import RxDataSources
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITableViewDelegate {
 
-    var textfield = UITextField()
-    var lbView = UILabel()
-    var viewModel: RxModel = RxModel.shard
+    var tvList = UITableView()
+    var viewModel = RxModel()
+    
+    var dataSource = RxTableViewSectionedReloadDataSource<MySection> { dataSource, tableView, indexPath, item in
+        let cell = tableView.dequeueReusableCell(withIdentifier: RxTableViewCell.identify, for: indexPath) as! RxTableViewCell
+        cell.bind(data: item)
+        
+        return cell
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        self.view.addSubview(textfield)
-        textfield.font = UIFont.systemFont(ofSize: 20)
-        textfield.layer.borderColor = UIColor.black.cgColor
-        textfield.layer.borderWidth = 1
-        textfield.layer.cornerRadius = 6
-        textfield.snp.makeConstraints { make in
-            make.top.equalToSuperview().offset(100)
-            make.leading.equalToSuperview().offset(20)
-            make.trailing.equalToSuperview().offset(-20)
-            make.height.equalTo(30)
-        }
-        self.view.addSubview(lbView)
-        lbView.font = UIFont.systemFont(ofSize: 20)
-        lbView.textColor = UIColor.black
-        lbView.snp.makeConstraints { make in
-            make.top.equalTo(self.textfield.snp.bottom).offset(20)
-            make.leading.equalToSuperview().offset(20)
-            make.trailing.equalToSuperview().offset(-20)
-        }
-        
-        textfield.addTarget(controlEvents: .editingChanged) {
-            self.viewModel.strSubject.onNext(self.textfield.text ?? "")
-        }
-        
+        setTable()
         setBridge()
+        setSections()
+    }
+    
+    func setTable(){
+        self.view.addSubview(tvList)
+        tvList.snp.makeConstraints { make in
+            make.edges.equalTo(self.view.safeAreaInsets)
+        }
+        
+        tvList.register(UINib(nibName: RxTableViewCell.identify, bundle: nil), forCellReuseIdentifier: RxTableViewCell.identify)
+        
+        dataSource.titleForHeaderInSection = {
+            dataSource , index in
+            return dataSource.sectionModels[index].model
+        }
+        
+        // delegate 설정
+        tvList.rx.setDelegate(self)
+            .disposed(by: viewModel.bag)
+        
+        // select event 설정
+        tvList.rx.modelSelected(MySection.Item.self)
+            .subscribe{
+                if let vc = $0.element?.viewController {
+                    self.navigationController?.pushViewController(vc, animated: true)
+                }
+            }.disposed(by: viewModel.bag)
+    }
+    
+    func setSections() {
+        var sections:[MySection] = []
+        var section1Items:[RxListModel] = []
+        section1Items.append(RxListModel(strTitle: "Hello RxCocoa", viewController: HelloRxCocoaViewController()))
+        let section1 = MySection(model: "RxCocoa", items: section1Items)
+        sections.append(section1)
+        viewModel.tableSubject.accept(sections)
     }
     
     func setBridge(){
-        viewModel.strSubject
-            .debounce(.milliseconds(1000), scheduler: MainScheduler.instance)
-            .subscribe {
-            self.lbView.text = $0
-        }.disposed(by: viewModel.bag)
+        viewModel.tableSubject
+            .bind(to: tvList.rx.items(dataSource: dataSource))
+            .disposed(by: viewModel.bag)
+        
     }
+    
 }
 
 
