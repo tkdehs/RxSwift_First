@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		592424AAD611662D3368E6A4 /* Pods_RxSwift_First.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F4324EFB3B9C5810864DBBD /* Pods_RxSwift_First.framework */; };
 		939EA388283211640016AFD2 /* RxModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939EA387283211640016AFD2 /* RxModel.swift */; };
+		F22FA861283D234F0001D80D /* DriverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22FA85F283D234F0001D80D /* DriverViewController.swift */; };
+		F22FA862283D234F0001D80D /* DriverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F22FA860283D234F0001D80D /* DriverViewController.xib */; };
 		F2479472283B1F8B00E83B7C /* RxListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2479471283B1F8B00E83B7C /* RxListModel.swift */; };
 		F247947C283B2EA100E83B7C /* RxTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F247947A283B2EA100E83B7C /* RxTableViewCell.swift */; };
 		F247947D283B2EA100E83B7C /* RxTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F247947B283B2EA100E83B7C /* RxTableViewCell.xib */; };
@@ -49,6 +51,8 @@
 		F224CE4528351D9A00CEA1AA /* sample.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = sample.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F224CE4628351EEA00CEA1AA /* switchLatest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = switchLatest.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F224CE472835215500CEA1AA /* reduce.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = reduce.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F22FA85F283D234F0001D80D /* DriverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverViewController.swift; sourceTree = "<group>"; };
+		F22FA860283D234F0001D80D /* DriverViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DriverViewController.xib; sourceTree = "<group>"; };
 		F2479471283B1F8B00E83B7C /* RxListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxListModel.swift; sourceTree = "<group>"; };
 		F247947A283B2EA100E83B7C /* RxTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxTableViewCell.swift; sourceTree = "<group>"; };
 		F247947B283B2EA100E83B7C /* RxTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxTableViewCell.xib; sourceTree = "<group>"; };
@@ -207,6 +211,15 @@
 				F21EA56B28294131000403C8 /* Relays_RxSwift5.playground */,
 			);
 			path = Subjects;
+			sourceTree = "<group>";
+		};
+		F22FA85E283D233B0001D80D /* Driver */ = {
+			isa = PBXGroup;
+			children = (
+				F22FA85F283D234F0001D80D /* DriverViewController.swift */,
+				F22FA860283D234F0001D80D /* DriverViewController.xib */,
+			);
+			path = Driver;
 			sourceTree = "<group>";
 		};
 		F2479470283B1F7200E83B7C /* Model */ = {
@@ -412,6 +425,7 @@
 		F2F60E7D283A2FEE005203AF /* RxCocoaBasics */ = {
 			isa = PBXGroup;
 			children = (
+				F22FA85E283D233B0001D80D /* Driver */,
 				F2EF5DF3283CFB9200C43282 /* Traits */,
 				F26E88BB283CC69A007537C1 /* Bbinding */,
 				F2F60E7E283A3015005203AF /* Hello */,
@@ -492,6 +506,7 @@
 				F2EDAD592826B83600EE1920 /* LaunchScreen.storyboard in Resources */,
 				F247947D283B2EA100E83B7C /* RxTableViewCell.xib in Resources */,
 				F2F60E82283A3036005203AF /* HelloRxCocoaViewController.xib in Resources */,
+				F22FA862283D234F0001D80D /* DriverViewController.xib in Resources */,
 				F2EDAD562826B83600EE1920 /* Assets.xcassets in Resources */,
 				F2EF5DF7283CFBBB00C43282 /* TraitsViewController.xib in Resources */,
 				F2EDAD512826B83300EE1920 /* Main.storyboard in Resources */,
@@ -553,6 +568,7 @@
 				F2EF5DF6283CFBBB00C43282 /* TraitsViewController.swift in Sources */,
 				F2EDAD4A2826B83300EE1920 /* AppDelegate.swift in Sources */,
 				F2EDAD4C2826B83300EE1920 /* SceneDelegate.swift in Sources */,
+				F22FA861283D234F0001D80D /* DriverViewController.swift in Sources */,
 				F247947C283B2EA100E83B7C /* RxTableViewCell.swift in Sources */,
 				F26E88BE283CC6C6007537C1 /* BindingRxCocoaViewController.swift in Sources */,
 				939EA388283211640016AFD2 /* RxModel.swift in Sources */,
