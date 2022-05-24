@@ -12,6 +12,8 @@
 		F2479472283B1F8B00E83B7C /* RxListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2479471283B1F8B00E83B7C /* RxListModel.swift */; };
 		F247947C283B2EA100E83B7C /* RxTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F247947A283B2EA100E83B7C /* RxTableViewCell.swift */; };
 		F247947D283B2EA100E83B7C /* RxTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F247947B283B2EA100E83B7C /* RxTableViewCell.xib */; };
+		F26E88BE283CC6C6007537C1 /* BindingRxCocoaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26E88BC283CC6C6007537C1 /* BindingRxCocoaViewController.swift */; };
+		F26E88BF283CC6C6007537C1 /* BindingRxCocoaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F26E88BD283CC6C6007537C1 /* BindingRxCocoaViewController.xib */; };
 		F2EDAD4A2826B83300EE1920 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EDAD492826B83300EE1920 /* AppDelegate.swift */; };
 		F2EDAD4C2826B83300EE1920 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EDAD4B2826B83300EE1920 /* SceneDelegate.swift */; };
 		F2EDAD4E2826B83300EE1920 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EDAD4D2826B83300EE1920 /* ViewController.swift */; };
@@ -48,6 +50,8 @@
 		F2479471283B1F8B00E83B7C /* RxListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxListModel.swift; sourceTree = "<group>"; };
 		F247947A283B2EA100E83B7C /* RxTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxTableViewCell.swift; sourceTree = "<group>"; };
 		F247947B283B2EA100E83B7C /* RxTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxTableViewCell.xib; sourceTree = "<group>"; };
+		F26E88BC283CC6C6007537C1 /* BindingRxCocoaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingRxCocoaViewController.swift; sourceTree = "<group>"; };
+		F26E88BD283CC6C6007537C1 /* BindingRxCocoaViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BindingRxCocoaViewController.xib; sourceTree = "<group>"; };
 		F27121252839D5B5003A2910 /* catch.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = catch.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F27121262839D7A1003A2910 /* catchAndReturn.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = catchAndReturn.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F27121272839DC96003A2910 /* retry.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = retry.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -218,6 +222,15 @@
 			path = Cell;
 			sourceTree = "<group>";
 		};
+		F26E88BB283CC69A007537C1 /* binding */ = {
+			isa = PBXGroup;
+			children = (
+				F26E88BC283CC6C6007537C1 /* BindingRxCocoaViewController.swift */,
+				F26E88BD283CC6C6007537C1 /* BindingRxCocoaViewController.xib */,
+			);
+			path = binding;
+			sourceTree = "<group>";
+		};
 		F27121242839D59E003A2910 /* ErrorHandling */ = {
 			isa = PBXGroup;
 			children = (
@@ -386,6 +399,7 @@
 		F2F60E7D283A2FEE005203AF /* RxCocoaBasics */ = {
 			isa = PBXGroup;
 			children = (
+				F26E88BB283CC69A007537C1 /* binding */,
 				F2F60E7E283A3015005203AF /* Hello */,
 			);
 			path = RxCocoaBasics;
@@ -460,6 +474,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F26E88BF283CC6C6007537C1 /* BindingRxCocoaViewController.xib in Resources */,
 				F2EDAD592826B83600EE1920 /* LaunchScreen.storyboard in Resources */,
 				F247947D283B2EA100E83B7C /* RxTableViewCell.xib in Resources */,
 				F2F60E82283A3036005203AF /* HelloRxCocoaViewController.xib in Resources */,
@@ -523,6 +538,7 @@
 				F2EDAD4A2826B83300EE1920 /* AppDelegate.swift in Sources */,
 				F2EDAD4C2826B83300EE1920 /* SceneDelegate.swift in Sources */,
 				F247947C283B2EA100E83B7C /* RxTableViewCell.swift in Sources */,
+				F26E88BE283CC6C6007537C1 /* BindingRxCocoaViewController.swift in Sources */,
 				939EA388283211640016AFD2 /* RxModel.swift in Sources */,
 				F2479472283B1F8B00E83B7C /* RxListModel.swift in Sources */,
 			);
