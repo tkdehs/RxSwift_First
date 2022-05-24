@@ -21,6 +21,8 @@
 		F2EDAD542826B83300EE1920 /* RxSwift_First.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F2EDAD522826B83300EE1920 /* RxSwift_First.xcdatamodeld */; };
 		F2EDAD562826B83600EE1920 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2EDAD552826B83600EE1920 /* Assets.xcassets */; };
 		F2EDAD592826B83600EE1920 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2EDAD572826B83600EE1920 /* LaunchScreen.storyboard */; };
+		F2EF5DF6283CFBBB00C43282 /* TraitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EF5DF4283CFBBB00C43282 /* TraitsViewController.swift */; };
+		F2EF5DF7283CFBBB00C43282 /* TraitsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2EF5DF5283CFBBB00C43282 /* TraitsViewController.xib */; };
 		F2F60E81283A3036005203AF /* HelloRxCocoaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F60E7F283A3036005203AF /* HelloRxCocoaViewController.swift */; };
 		F2F60E82283A3036005203AF /* HelloRxCocoaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2F60E80283A3036005203AF /* HelloRxCocoaViewController.xib */; };
 /* End PBXBuildFile section */
@@ -98,6 +100,8 @@
 		F2EDAD582826B83600EE1920 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2EDAD5A2826B83600EE1920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2EDAD612826B9D300EE1920 /* Hellow.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Hellow.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F2EF5DF4283CFBBB00C43282 /* TraitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraitsViewController.swift; sourceTree = "<group>"; };
+		F2EF5DF5283CFBBB00C43282 /* TraitsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TraitsViewController.xib; sourceTree = "<group>"; };
 		F2F346CF283277ED00C777B1 /* window.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = window.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F2F384BB282F485D00E551CD /* IgnoreElements.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = IgnoreElements.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F2F384BC282F4B9500E551CD /* elementsAt.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = elementsAt.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -222,13 +226,13 @@
 			path = Cell;
 			sourceTree = "<group>";
 		};
-		F26E88BB283CC69A007537C1 /* binding */ = {
+		F26E88BB283CC69A007537C1 /* Bbinding */ = {
 			isa = PBXGroup;
 			children = (
 				F26E88BC283CC6C6007537C1 /* BindingRxCocoaViewController.swift */,
 				F26E88BD283CC6C6007537C1 /* BindingRxCocoaViewController.xib */,
 			);
-			path = binding;
+			path = Bbinding;
 			sourceTree = "<group>";
 		};
 		F27121242839D59E003A2910 /* ErrorHandling */ = {
@@ -373,6 +377,15 @@
 			path = Hellow;
 			sourceTree = "<group>";
 		};
+		F2EF5DF3283CFB9200C43282 /* Traits */ = {
+			isa = PBXGroup;
+			children = (
+				F2EF5DF4283CFBBB00C43282 /* TraitsViewController.swift */,
+				F2EF5DF5283CFBBB00C43282 /* TraitsViewController.xib */,
+			);
+			path = Traits;
+			sourceTree = "<group>";
+		};
 		F2F384BA282F482500E551CD /* FilteringOperators */ = {
 			isa = PBXGroup;
 			children = (
@@ -399,7 +412,8 @@
 		F2F60E7D283A2FEE005203AF /* RxCocoaBasics */ = {
 			isa = PBXGroup;
 			children = (
-				F26E88BB283CC69A007537C1 /* binding */,
+				F2EF5DF3283CFB9200C43282 /* Traits */,
+				F26E88BB283CC69A007537C1 /* Bbinding */,
 				F2F60E7E283A3015005203AF /* Hello */,
 			);
 			path = RxCocoaBasics;
@@ -479,6 +493,7 @@
 				F247947D283B2EA100E83B7C /* RxTableViewCell.xib in Resources */,
 				F2F60E82283A3036005203AF /* HelloRxCocoaViewController.xib in Resources */,
 				F2EDAD562826B83600EE1920 /* Assets.xcassets in Resources */,
+				F2EF5DF7283CFBBB00C43282 /* TraitsViewController.xib in Resources */,
 				F2EDAD512826B83300EE1920 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -535,6 +550,7 @@
 				F2F60E81283A3036005203AF /* HelloRxCocoaViewController.swift in Sources */,
 				F2EDAD542826B83300EE1920 /* RxSwift_First.xcdatamodeld in Sources */,
 				F2EDAD4E2826B83300EE1920 /* ViewController.swift in Sources */,
+				F2EF5DF6283CFBBB00C43282 /* TraitsViewController.swift in Sources */,
 				F2EDAD4A2826B83300EE1920 /* AppDelegate.swift in Sources */,
 				F2EDAD4C2826B83300EE1920 /* SceneDelegate.swift in Sources */,
 				F247947C283B2EA100E83B7C /* RxTableViewCell.swift in Sources */,

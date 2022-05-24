@@ -61,6 +61,7 @@ class ViewController: UIViewController, UITableViewDelegate {
         var section1Items:[RxListModel] = []
         section1Items.append(RxListModel(strTitle: "Hello RxCocoa", viewController: HelloRxCocoaViewController()))
         section1Items.append(RxListModel(strTitle: "Binding RxCocoa", viewController: BindingRxCocoaViewController()))
+        section1Items.append(RxListModel(strTitle: "Traits RxCocoa", viewController: TraitsViewController()))
         
         let section1 = MySection(model: "RxCocoa", items: section1Items)
         sections.append(section1)
