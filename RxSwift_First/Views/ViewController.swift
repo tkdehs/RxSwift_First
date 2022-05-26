@@ -43,10 +43,6 @@ class ViewController: UIViewController, UITableViewDelegate {
             return dataSource.sectionModels[index].model
         }
         
-        // delegate 설정
-        tvList.rx.setDelegate(self)
-            .disposed(by: viewModel.bag)
-        
         // select event 설정
         tvList.rx.modelSelected(MySection.Item.self)
             .subscribe{
@@ -63,9 +59,14 @@ class ViewController: UIViewController, UITableViewDelegate {
         section1Items.append(RxListModel(strTitle: "Binding RxCocoa", viewController: BindingRxCocoaViewController()))
         section1Items.append(RxListModel(strTitle: "Traits RxCocoa", viewController: TraitsViewController()))
         section1Items.append(RxListModel(strTitle: "Driver RxCocoa", viewController: DriverViewController()))
-        
         let section1 = MySection(model: "RxCocoa", items: section1Items)
         sections.append(section1)
+        
+        var section2Items:[RxListModel] = []
+        section2Items.append(RxListModel(strTitle: "RxTableView", viewController: RxCocoaTableViewViewController()))
+        let section2 = MySection(model: "RxCocoaCommonPatterns", items: section2Items)
+        sections.append(section2)
+        
         viewModel.tableSubject.accept(sections)
     }
     
@@ -76,31 +77,4 @@ class ViewController: UIViewController, UITableViewDelegate {
         
     }
     
-}
-
-
-extension UIControl {
-    
-    /// 타겟 추가
-    ///
-    /// - Parameters:
-    ///   - controlEvents: 컨트롤 이벤트
-    ///   - action: 액션
-    func addTarget (controlEvents: UIControl.Event = .touchUpInside, action: @escaping ()->()) {
-        let sleeve = ClosureSleeve(action)
-         addTarget(sleeve, action: #selector(ClosureSleeve.invoke), for: controlEvents)
-        objc_setAssociatedObject(self, String(format: "[%d]", arc4random()), sleeve, objc_AssociationPolicy.OBJC_ASSOCIATION_RETAIN)
-    }
-    
-    class ClosureSleeve {
-        let closure: ()->()
-        
-        init (_ closure: @escaping ()->()) {
-            self.closure = closure
-        }
-        
-        @objc func invoke () {
-            closure()
-        }
-    }
 }
