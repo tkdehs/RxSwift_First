@@ -63,7 +63,7 @@ class RxCocoaTableViewViewController: UIViewController {
 //            })
 //            .disposed(by: bag)
         
-        // 두 옵저버블 모두 같은 인덱스 기반으로 움직이기떄문에 zip을 활용하여 간단하게 처리 가능하다.ㅊ
+        // 두 옵저버블 모두 같은 인덱스 기반으로 움직이기떄문에 zip을 활용하여 간단하게 처리 가능하다.
         Observable.zip(listTableView.rx.modelSelected(Product.self), listTableView.rx.itemSelected)
             .bind {
                 product, indexPath in

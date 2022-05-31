@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		592424AAD611662D3368E6A4 /* Pods_RxSwift_First.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F4324EFB3B9C5810864DBBD /* Pods_RxSwift_First.framework */; };
 		939EA388283211640016AFD2 /* RxModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939EA387283211640016AFD2 /* RxModel.swift */; };
+		F21D843C2845CE4B00E85A91 /* RxCocoaAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21D843A2845CE4B00E85A91 /* RxCocoaAlertViewController.swift */; };
+		F21D843D2845CE4B00E85A91 /* RxCocoaAlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F21D843B2845CE4B00E85A91 /* RxCocoaAlertViewController.xib */; };
 		F22FA861283D234F0001D80D /* DriverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22FA85F283D234F0001D80D /* DriverViewController.swift */; };
 		F22FA862283D234F0001D80D /* DriverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F22FA860283D234F0001D80D /* DriverViewController.xib */; };
 		F24538FB283F145E00093C53 /* RxCocoaTableViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24538F9283F145E00093C53 /* RxCocoaTableViewViewController.swift */; };
@@ -19,8 +21,15 @@
 		F2479472283B1F8B00E83B7C /* RxListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2479471283B1F8B00E83B7C /* RxListModel.swift */; };
 		F247947C283B2EA100E83B7C /* RxTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F247947A283B2EA100E83B7C /* RxTableViewCell.swift */; };
 		F247947D283B2EA100E83B7C /* RxTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F247947B283B2EA100E83B7C /* RxTableViewCell.xib */; };
+		F25F6F552846332E0008E823 /* RxNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25F6F532846332E0008E823 /* RxNotificationViewController.swift */; };
+		F25F6F562846332E0008E823 /* RxNotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F25F6F542846332E0008E823 /* RxNotificationViewController.xib */; };
 		F26E88BE283CC6C6007537C1 /* BindingRxCocoaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26E88BC283CC6C6007537C1 /* BindingRxCocoaViewController.swift */; };
 		F26E88BF283CC6C6007537C1 /* BindingRxCocoaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F26E88BD283CC6C6007537C1 /* BindingRxCocoaViewController.xib */; };
+		F2CEEDA32840698500153F81 /* RxCocoaCollectionViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CEEDA12840698500153F81 /* RxCocoaCollectionViewViewController.swift */; };
+		F2CEEDA42840698500153F81 /* RxCocoaCollectionViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2CEEDA22840698500153F81 /* RxCocoaCollectionViewViewController.xib */; };
+		F2CEEDA728406B3A00153F81 /* ColorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CEEDA528406B3A00153F81 /* ColorCell.swift */; };
+		F2CEEDA828406B3A00153F81 /* ColorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2CEEDA628406B3A00153F81 /* ColorCell.xib */; };
+		F2CEEDAA2840715D00153F81 /* MaterialColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CEEDA92840715D00153F81 /* MaterialColor.swift */; };
 		F2EDAD4A2826B83300EE1920 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EDAD492826B83300EE1920 /* AppDelegate.swift */; };
 		F2EDAD4C2826B83300EE1920 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EDAD4B2826B83300EE1920 /* SceneDelegate.swift */; };
 		F2EDAD4E2826B83300EE1920 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EDAD4D2826B83300EE1920 /* ViewController.swift */; };
@@ -46,6 +55,8 @@
 		CEF971AD32796C3E91AA8FAF /* Pods-RxSwift_First.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift_First.release.xcconfig"; path = "Target Support Files/Pods-RxSwift_First/Pods-RxSwift_First.release.xcconfig"; sourceTree = "<group>"; };
 		F210189A28276C4100447C74 /* Obsevable.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Obsevable.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F210189B2827700B00447C74 /* infallible.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = infallible.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F21D843A2845CE4B00E85A91 /* RxCocoaAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCocoaAlertViewController.swift; sourceTree = "<group>"; };
+		F21D843B2845CE4B00E85A91 /* RxCocoaAlertViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxCocoaAlertViewController.xib; sourceTree = "<group>"; };
 		F21EA56828293A3C000403C8 /* BehaviorSubject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BehaviorSubject.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F21EA56928293BFA000403C8 /* ReplaySubject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ReplaySubject.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F21EA56A28293F64000403C8 /* AsyncSubject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AsyncSubject.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -66,6 +77,8 @@
 		F2479471283B1F8B00E83B7C /* RxListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxListModel.swift; sourceTree = "<group>"; };
 		F247947A283B2EA100E83B7C /* RxTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxTableViewCell.swift; sourceTree = "<group>"; };
 		F247947B283B2EA100E83B7C /* RxTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxTableViewCell.xib; sourceTree = "<group>"; };
+		F25F6F532846332E0008E823 /* RxNotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxNotificationViewController.swift; sourceTree = "<group>"; };
+		F25F6F542846332E0008E823 /* RxNotificationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxNotificationViewController.xib; sourceTree = "<group>"; };
 		F26E88BC283CC6C6007537C1 /* BindingRxCocoaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingRxCocoaViewController.swift; sourceTree = "<group>"; };
 		F26E88BD283CC6C6007537C1 /* BindingRxCocoaViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BindingRxCocoaViewController.xib; sourceTree = "<group>"; };
 		F27121252839D5B5003A2910 /* catch.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = catch.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -96,6 +109,11 @@
 		F2A7943D2836098E002BB9BC /* timer.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = timer.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F2A7943E28360AC0002BB9BC /* timeout.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = timeout.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F2A7943F28360C8F002BB9BC /* delay.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = delay.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F2CEEDA12840698500153F81 /* RxCocoaCollectionViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCocoaCollectionViewViewController.swift; sourceTree = "<group>"; };
+		F2CEEDA22840698500153F81 /* RxCocoaCollectionViewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxCocoaCollectionViewViewController.xib; sourceTree = "<group>"; };
+		F2CEEDA528406B3A00153F81 /* ColorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCell.swift; sourceTree = "<group>"; };
+		F2CEEDA628406B3A00153F81 /* ColorCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ColorCell.xib; sourceTree = "<group>"; };
+		F2CEEDA92840715D00153F81 /* MaterialColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialColor.swift; sourceTree = "<group>"; };
 		F2D59ED428365D0900129C9A /* share.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = share.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F2D59ED52836636C00129C9A /* multicast.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = multicast.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F2D7886E28360FA000D8FBE1 /* delaySubscription.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = delaySubscription.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -211,6 +229,15 @@
 			path = RxWorks;
 			sourceTree = "<group>";
 		};
+		F21D84392845CDB800E85A91 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				F21D843A2845CE4B00E85A91 /* RxCocoaAlertViewController.swift */,
+				F21D843B2845CE4B00E85A91 /* RxCocoaAlertViewController.xib */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
 		F221990528280C7C006E17C4 /* Subjects */ = {
 			isa = PBXGroup;
 			children = (
@@ -235,6 +262,8 @@
 		F24538F6283F13A000093C53 /* RxCocoaCommonPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				F25F6F5228462DD00008E823 /* Notification */,
+				F21D84392845CDB800E85A91 /* Alert */,
 				F2453906283F50FC00093C53 /* CollectionView */,
 				F24538F7283F13D400093C53 /* TableView */,
 			);
@@ -263,6 +292,7 @@
 		F24538FD283F1A1100093C53 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				F2CEEDA92840715D00153F81 /* MaterialColor.swift */,
 				F24538FE283F1A2000093C53 /* Product.swift */,
 			);
 			path = Common;
@@ -272,6 +302,8 @@
 			isa = PBXGroup;
 			children = (
 				F2453907283F511100093C53 /* Cell */,
+				F2CEEDA12840698500153F81 /* RxCocoaCollectionViewViewController.swift */,
+				F2CEEDA22840698500153F81 /* RxCocoaCollectionViewViewController.xib */,
 			);
 			path = CollectionView;
 			sourceTree = "<group>";
@@ -279,6 +311,8 @@
 		F2453907283F511100093C53 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				F2CEEDA528406B3A00153F81 /* ColorCell.swift */,
+				F2CEEDA628406B3A00153F81 /* ColorCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -298,6 +332,15 @@
 				F247947B283B2EA100E83B7C /* RxTableViewCell.xib */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		F25F6F5228462DD00008E823 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				F25F6F532846332E0008E823 /* RxNotificationViewController.swift */,
+				F25F6F542846332E0008E823 /* RxNotificationViewController.xib */,
+			);
+			path = Notification;
 			sourceTree = "<group>";
 		};
 		F26E88BB283CC69A007537C1 /* Bbinding */ = {
@@ -565,14 +608,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F25F6F562846332E0008E823 /* RxNotificationViewController.xib in Resources */,
+				F21D843D2845CE4B00E85A91 /* RxCocoaAlertViewController.xib in Resources */,
 				F26E88BF283CC6C6007537C1 /* BindingRxCocoaViewController.xib in Resources */,
 				F24538FC283F145E00093C53 /* RxCocoaTableViewViewController.xib in Resources */,
 				F2EDAD592826B83600EE1920 /* LaunchScreen.storyboard in Resources */,
 				F247947D283B2EA100E83B7C /* RxTableViewCell.xib in Resources */,
 				F2F60E82283A3036005203AF /* HelloRxCocoaViewController.xib in Resources */,
+				F2CEEDA42840698500153F81 /* RxCocoaCollectionViewViewController.xib in Resources */,
 				F22FA862283D234F0001D80D /* DriverViewController.xib in Resources */,
 				F2EDAD562826B83600EE1920 /* Assets.xcassets in Resources */,
 				F2453905283F40CC00093C53 /* ProductCell.xib in Resources */,
+				F2CEEDA828406B3A00153F81 /* ColorCell.xib in Resources */,
 				F2EF5DF7283CFBBB00C43282 /* TraitsViewController.xib in Resources */,
 				F2EDAD512826B83300EE1920 /* Main.storyboard in Resources */,
 			);
@@ -629,12 +676,17 @@
 			files = (
 				F2F60E81283A3036005203AF /* HelloRxCocoaViewController.swift in Sources */,
 				F2EDAD542826B83300EE1920 /* RxSwift_First.xcdatamodeld in Sources */,
+				F2CEEDAA2840715D00153F81 /* MaterialColor.swift in Sources */,
 				F2EDAD4E2826B83300EE1920 /* ViewController.swift in Sources */,
 				F2EF5DF6283CFBBB00C43282 /* TraitsViewController.swift in Sources */,
 				F2EDAD4A2826B83300EE1920 /* AppDelegate.swift in Sources */,
+				F25F6F552846332E0008E823 /* RxNotificationViewController.swift in Sources */,
+				F21D843C2845CE4B00E85A91 /* RxCocoaAlertViewController.swift in Sources */,
 				F2453904283F40CC00093C53 /* ProductCell.swift in Sources */,
+				F2CEEDA32840698500153F81 /* RxCocoaCollectionViewViewController.swift in Sources */,
 				F2EDAD4C2826B83300EE1920 /* SceneDelegate.swift in Sources */,
 				F22FA861283D234F0001D80D /* DriverViewController.swift in Sources */,
+				F2CEEDA728406B3A00153F81 /* ColorCell.swift in Sources */,
 				F247947C283B2EA100E83B7C /* RxTableViewCell.swift in Sources */,
 				F24538FB283F145E00093C53 /* RxCocoaTableViewViewController.swift in Sources */,
 				F26E88BE283CC6C6007537C1 /* BindingRxCocoaViewController.swift in Sources */,

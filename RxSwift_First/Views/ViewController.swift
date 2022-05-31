@@ -64,6 +64,10 @@ class ViewController: UIViewController, UITableViewDelegate {
         
         var section2Items:[RxListModel] = []
         section2Items.append(RxListModel(strTitle: "RxTableView", viewController: RxCocoaTableViewViewController()))
+        section2Items.append(RxListModel(strTitle: "RxCollectionView", viewController: RxCocoaCollectionViewViewController()))
+        section2Items.append(RxListModel(strTitle: "RxCocoaAlertView", viewController: RxCocoaAlertViewController()))
+        section2Items.append(RxListModel(strTitle: "RxNotificationView", viewController: RxNotificationViewController()))
+        
         let section2 = MySection(model: "RxCocoaCommonPatterns", items: section2Items)
         sections.append(section2)
         
