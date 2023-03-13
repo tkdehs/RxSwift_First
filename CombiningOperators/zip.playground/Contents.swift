@@ -22,8 +22,13 @@ numbers.onNext(1)
 strings.onNext("one")
 
 numbers.onNext(2)
+numbers.onNext(3)
+numbers.onNext(4)
+numbers.onNext(5)
 // 항상 짝을 맞추어 방출되기때문에 2만 numbers에서 방출될경우 방출되지않는다.
 strings.onNext("two")
+strings.onNext("tree")
+strings.onNext("for")
 
 // 한쪽에서만 completed가 전달된경우 다른쪽에서 completed가 전달될떄까지 전달되지 않는다.
 //numbers.onCompleted()

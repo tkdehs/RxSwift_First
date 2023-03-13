@@ -16,6 +16,8 @@ trigger.withLatestFrom(data)
 
 // 아직 트리거 이벤트가 실행되지 않았기 떄문에 구독자에게 전달되지 않는다.
 data.onNext("Hellow")
+data.onNext("Hellow2")
+data.onNext("Hellow3")
 
 //트리거 이벤트가 실행되고나서야 구독자에게 전달된다.
 trigger.onNext(())

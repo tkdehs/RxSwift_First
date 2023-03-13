@@ -25,6 +25,12 @@
 		F25F6F562846332E0008E823 /* RxNotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F25F6F542846332E0008E823 /* RxNotificationViewController.xib */; };
 		F26E88BE283CC6C6007537C1 /* BindingRxCocoaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26E88BC283CC6C6007537C1 /* BindingRxCocoaViewController.swift */; };
 		F26E88BF283CC6C6007537C1 /* BindingRxCocoaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F26E88BD283CC6C6007537C1 /* BindingRxCocoaViewController.xib */; };
+		F2A50BAC28471A5600A0F649 /* RxGestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A50BAA28471A5600A0F649 /* RxGestureViewController.swift */; };
+		F2A50BAD28471A5600A0F649 /* RxGestureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2A50BAB28471A5600A0F649 /* RxGestureViewController.xib */; };
+		F2A50BB12847310600A0F649 /* CustomBinderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A50BAF2847310600A0F649 /* CustomBinderViewController.swift */; };
+		F2A50BB22847310600A0F649 /* CustomBinderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2A50BB02847310600A0F649 /* CustomBinderViewController.xib */; };
+		F2A50BB72848807A00A0F649 /* ControlPropertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A50BB52848807A00A0F649 /* ControlPropertyViewController.swift */; };
+		F2A50BB82848807A00A0F649 /* ControlPropertyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2A50BB62848807A00A0F649 /* ControlPropertyViewController.xib */; };
 		F2CEEDA32840698500153F81 /* RxCocoaCollectionViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CEEDA12840698500153F81 /* RxCocoaCollectionViewViewController.swift */; };
 		F2CEEDA42840698500153F81 /* RxCocoaCollectionViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2CEEDA22840698500153F81 /* RxCocoaCollectionViewViewController.xib */; };
 		F2CEEDA728406B3A00153F81 /* ColorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CEEDA528406B3A00153F81 /* ColorCell.swift */; };
@@ -104,6 +110,12 @@
 		F2860A622833C1BC00BAB7B6 /* combineLatest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = combineLatest.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F2881EDE282771EB005C97A2 /* Disposable.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Disposable.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F2881EDF282775C7005C97A2 /* Operators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Operators.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F2A50BAA28471A5600A0F649 /* RxGestureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxGestureViewController.swift; sourceTree = "<group>"; };
+		F2A50BAB28471A5600A0F649 /* RxGestureViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxGestureViewController.xib; sourceTree = "<group>"; };
+		F2A50BAF2847310600A0F649 /* CustomBinderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBinderViewController.swift; sourceTree = "<group>"; };
+		F2A50BB02847310600A0F649 /* CustomBinderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomBinderViewController.xib; sourceTree = "<group>"; };
+		F2A50BB52848807A00A0F649 /* ControlPropertyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlPropertyViewController.swift; sourceTree = "<group>"; };
+		F2A50BB62848807A00A0F649 /* ControlPropertyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ControlPropertyViewController.xib; sourceTree = "<group>"; };
 		F2A7943A2835CF8F002BB9BC /* amb.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = amb.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F2A7943C28360692002BB9BC /* interval.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = interval.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F2A7943D2836098E002BB9BC /* timer.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = timer.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -262,6 +274,7 @@
 		F24538F6283F13A000093C53 /* RxCocoaCommonPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				F2A50BA92847184900A0F649 /* Gesture */,
 				F25F6F5228462DD00008E823 /* Notification */,
 				F21D84392845CDB800E85A91 /* Alert */,
 				F2453906283F50FC00093C53 /* CollectionView */,
@@ -397,6 +410,42 @@
 			path = CreatingOperators;
 			sourceTree = "<group>";
 		};
+		F2A50BA92847184900A0F649 /* Gesture */ = {
+			isa = PBXGroup;
+			children = (
+				F2A50BAA28471A5600A0F649 /* RxGestureViewController.swift */,
+				F2A50BAB28471A5600A0F649 /* RxGestureViewController.xib */,
+			);
+			path = Gesture;
+			sourceTree = "<group>";
+		};
+		F2A50BAE284730E300A0F649 /* CustomExtension */ = {
+			isa = PBXGroup;
+			children = (
+				F2A50BB42848804E00A0F649 /* ControlProperty */,
+				F2A50BB32848804400A0F649 /* Binder */,
+			);
+			path = CustomExtension;
+			sourceTree = "<group>";
+		};
+		F2A50BB32848804400A0F649 /* Binder */ = {
+			isa = PBXGroup;
+			children = (
+				F2A50BAF2847310600A0F649 /* CustomBinderViewController.swift */,
+				F2A50BB02847310600A0F649 /* CustomBinderViewController.xib */,
+			);
+			path = Binder;
+			sourceTree = "<group>";
+		};
+		F2A50BB42848804E00A0F649 /* ControlProperty */ = {
+			isa = PBXGroup;
+			children = (
+				F2A50BB52848807A00A0F649 /* ControlPropertyViewController.swift */,
+				F2A50BB62848807A00A0F649 /* ControlPropertyViewController.xib */,
+			);
+			path = ControlProperty;
+			sourceTree = "<group>";
+		};
 		F2A794392835CED1002BB9BC /* ConditionalOperators */ = {
 			isa = PBXGroup;
 			children = (
@@ -472,6 +521,7 @@
 			isa = PBXGroup;
 			children = (
 				F24538FD283F1A1100093C53 /* Common */,
+				F2A50BAE284730E300A0F649 /* CustomExtension */,
 				F24538F6283F13A000093C53 /* RxCocoaCommonPatterns */,
 				F2F60E7D283A2FEE005203AF /* RxCocoaBasics */,
 				F2479470283B1F7200E83B7C /* Model */,
@@ -613,6 +663,7 @@
 				F26E88BF283CC6C6007537C1 /* BindingRxCocoaViewController.xib in Resources */,
 				F24538FC283F145E00093C53 /* RxCocoaTableViewViewController.xib in Resources */,
 				F2EDAD592826B83600EE1920 /* LaunchScreen.storyboard in Resources */,
+				F2A50BAD28471A5600A0F649 /* RxGestureViewController.xib in Resources */,
 				F247947D283B2EA100E83B7C /* RxTableViewCell.xib in Resources */,
 				F2F60E82283A3036005203AF /* HelloRxCocoaViewController.xib in Resources */,
 				F2CEEDA42840698500153F81 /* RxCocoaCollectionViewViewController.xib in Resources */,
@@ -620,7 +671,9 @@
 				F2EDAD562826B83600EE1920 /* Assets.xcassets in Resources */,
 				F2453905283F40CC00093C53 /* ProductCell.xib in Resources */,
 				F2CEEDA828406B3A00153F81 /* ColorCell.xib in Resources */,
+				F2A50BB22847310600A0F649 /* CustomBinderViewController.xib in Resources */,
 				F2EF5DF7283CFBBB00C43282 /* TraitsViewController.xib in Resources */,
+				F2A50BB82848807A00A0F649 /* ControlPropertyViewController.xib in Resources */,
 				F2EDAD512826B83300EE1920 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -682,8 +735,10 @@
 				F2EDAD4A2826B83300EE1920 /* AppDelegate.swift in Sources */,
 				F25F6F552846332E0008E823 /* RxNotificationViewController.swift in Sources */,
 				F21D843C2845CE4B00E85A91 /* RxCocoaAlertViewController.swift in Sources */,
+				F2A50BAC28471A5600A0F649 /* RxGestureViewController.swift in Sources */,
 				F2453904283F40CC00093C53 /* ProductCell.swift in Sources */,
 				F2CEEDA32840698500153F81 /* RxCocoaCollectionViewViewController.swift in Sources */,
+				F2A50BB72848807A00A0F649 /* ControlPropertyViewController.swift in Sources */,
 				F2EDAD4C2826B83300EE1920 /* SceneDelegate.swift in Sources */,
 				F22FA861283D234F0001D80D /* DriverViewController.swift in Sources */,
 				F2CEEDA728406B3A00153F81 /* ColorCell.swift in Sources */,
@@ -691,6 +746,7 @@
 				F24538FB283F145E00093C53 /* RxCocoaTableViewViewController.swift in Sources */,
 				F26E88BE283CC6C6007537C1 /* BindingRxCocoaViewController.swift in Sources */,
 				939EA388283211640016AFD2 /* RxModel.swift in Sources */,
+				F2A50BB12847310600A0F649 /* CustomBinderViewController.swift in Sources */,
 				F2479472283B1F8B00E83B7C /* RxListModel.swift in Sources */,
 				F24538FF283F1A2000093C53 /* Product.swift in Sources */,
 			);

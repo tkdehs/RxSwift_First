@@ -67,9 +67,17 @@ class ViewController: UIViewController, UITableViewDelegate {
         section2Items.append(RxListModel(strTitle: "RxCollectionView", viewController: RxCocoaCollectionViewViewController()))
         section2Items.append(RxListModel(strTitle: "RxCocoaAlertView", viewController: RxCocoaAlertViewController()))
         section2Items.append(RxListModel(strTitle: "RxNotificationView", viewController: RxNotificationViewController()))
+        section2Items.append(RxListModel(strTitle: "RxGestureView", viewController: RxGestureViewController()))
         
         let section2 = MySection(model: "RxCocoaCommonPatterns", items: section2Items)
         sections.append(section2)
+        
+        var section3Items:[RxListModel] = []
+        section3Items.append(RxListModel(strTitle: "CustomBinderView", viewController: CustomBinderViewController()))
+        section3Items.append(RxListModel(strTitle: "ControlPropertyView", viewController: ControlPropertyViewController()))
+        
+        let section3 = MySection(model: "CustomExtension", items: section3Items)
+        sections.append(section3)
         
         viewModel.tableSubject.accept(sections)
     }
